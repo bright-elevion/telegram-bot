@@ -5,7 +5,7 @@ from telebot import types
 
 # --- CONFIGURATION ---
 # We use environment variables for security on Railway
-API_TOKEN = os.getenv('8919213509:AAFchvoOBEHhwFg9WrEDj8cGQuBA6As58Cg')
+API_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
 if not API_TOKEN:
     print("Error: TELEGRAM_BOT_TOKEN environment variable not set.")
